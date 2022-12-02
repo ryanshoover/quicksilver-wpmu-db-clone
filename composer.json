@@ -1,6 +1,6 @@
 {
     "name": "ryanshoover/quicksilver-wpmu-db-clone",
-    "type": "project",
+    "type": "quicksilver-script",
     "require": {
         "symfony/process": "^5.4"
     },
