@@ -9,7 +9,8 @@ It will do a search-replace across all sites, replacing their individual URL wit
 ## Installation
 
 1. Copy the code to your site repo at `/private/scripts`
-2. Update your `pantheon.yml` file to include a snippet like below. This will enable the quicksilver hook.
+2. Run `composer install` inside the script folder to install its dependencies.
+3. Update your `pantheon.yml` file to include a snippet like below. This will enable the quicksilver hook.
 
     ```yml
     workflows:
@@ -21,4 +22,4 @@ It will do a search-replace across all sites, replacing their individual URL wit
 
     ```
 
-3. Edit the `$domains` array in `wpmu-db-clone.php` to match your site's configuration.
+4. Edit the `$domains` array in `wpmu-db-clone.php` to match your site's configuration.
