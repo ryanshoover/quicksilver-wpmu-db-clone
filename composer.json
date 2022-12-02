@@ -1,0 +1,13 @@
+{
+    "name": "ryanshoover/quicksilver-wpmu-db-clone",
+    "type": "project",
+    "require": {
+        "symfony/process": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Ryan Hoover",
+            "email": "ryan.hoover@pantheon.io"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+workflows:
+  clone_database:
+    after:
+      - type: webphp
+        description: Clean up blog urls
+        script: private/scripts/wpmu-db-clone/wpmu-db-clone.php
