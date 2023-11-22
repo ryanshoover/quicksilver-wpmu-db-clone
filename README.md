@@ -1,3 +1,5 @@
+Note that Pantheon's recent changes to [search-replace functionality](https://docs.pantheon.io/guides/multisite/search-replace/) for multisites should make this script unnecessary. If possible, use the platform functionality instead. You'll have a better time.
+
 # Quicksilver Script - WPMU Database Clone
 
 Pantheon Quicksilver script designed to be run when a database is cloned from live to a lower environment.
